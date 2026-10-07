@@ -78,5 +78,44 @@
   <div class="container footer-bottom"><span>Digital Marketing Freelancer</span><span>© 2026 All Rights Reserved.</span></div>
 </footer>
 <script src="js/script.js"></script>
+<!-- Structured Data / Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://example.com/contact.html#contactpage",
+      "url": "https://example.com/contact.html",
+      "name": "Contact | Digital Marketing Freelancer",
+      "description": "Contact Amalkesh for digital marketing, social media, content, SEO and website development work.",
+      "isPartOf": {
+        "@id": "https://example.com/#website"
+      },
+      "about": {
+        "@id": "https://example.com/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://example.com/#person",
+      "name": "Amalkesh H.",
+      "url": "https://example.com/",
+      "jobTitle": "Digital Marketing Freelancer",
+      "email": "mailto:amalkesh91@gmail.com",
+      "telephone": "+91-7510315751"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/#website",
+      "url": "https://example.com/",
+      "name": "Amalkesh | Digital Marketing Freelancer",
+      "publisher": {
+        "@id": "https://example.com/#person"
+      }
+    }
+  ]
+}
+</script>
 </body>
 </html>
