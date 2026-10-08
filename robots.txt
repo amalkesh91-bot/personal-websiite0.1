@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amalkesh91-bot.github.io/personal-websiite0.1/sitemap.xml

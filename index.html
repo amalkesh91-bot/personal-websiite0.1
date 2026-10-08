@@ -22,6 +22,17 @@
     content="Digital marketing services focused on strategy, creativity and technology.">
   <link rel="stylesheet" href="css/style.css">
   <meta name="google-site-verification" content="b8pvSTMasDqG4Tu6F0D0HAPfvY0lNbtVjXgwdmW2YgE" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E97NH9HM8T"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QG50043S84"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QG50043S84');
+</script>
 </head>
 
 <body>
@@ -565,7 +576,54 @@
 
 
   <script src="js/script.js"></script>
-
+<!-- Structured Data / Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://example.com/index.html#person",
+      "name": "Amalkesh H.",
+      "url": "https://example.com/index.html",
+      "jobTitle": "Digital Marketing Freelancer",
+      "description": "Digital Marketing Freelancer applying strategy, creativity and technology to assist brands in building strong digital identities and meaningful connections with their audience.",
+      "email": "mailto:amalkesh91@gmail.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://example.com/index.html#website",
+      "url": "https://example.com/index.html",
+      "name": "Amalkesh | Digital Marketing Freelancer",
+      "description": "Digital marketing services focused on strategy, creativity and technology.",
+      "publisher": {
+        "@id": "https://example.com/index.html#person"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://example.com/index.html#professionalservice",
+      "name": "Amalkesh - Digital Marketing Freelancer",
+      "url": "https://example.com/index.html",
+      "description": "Digital marketing services including social media marketing, search engine optimization, content marketing, website development and digital marketing strategy.",
+      "provider": {
+        "@id": "https://example.com/index.html#person"
+      },
+      "serviceType": [
+        "Social Media Marketing",
+        "Search Engine Optimization",
+        "Content Marketing",
+        "Website Development",
+        "Digital Marketing Strategy"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+  ]
+}
+</script>
 </body>
 
 </html>
